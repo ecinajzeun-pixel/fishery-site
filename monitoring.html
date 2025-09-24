@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoring Tool - SR Tilapia Fingerlings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Monitoring Tool</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="monitoring.html">Monitoring Tool</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://www.facebook.com/SRTilapiaFingerlings" target="_blank">Facebook</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Demo: Tilapia Farm Monitoring</h2>
+            <p>Use this tool to track your feeding schedule, water changes, and fish growth. (Full version coming soon!)</p>
+            <form>
+                <label>Date:
+                    <input type="date" name="date">
+                </label><br>
+                <label>Number of Feedings:
+                    <input type="number" name="feedings" min="1" max="5">
+                </label><br>
+                <label>Estimated Feed Given (kg):
+                    <input type="number" name="feedAmount" step="0.1" min="0">
+                </label><br>
+                <label>Water Change Done?
+                    <select name="waterChange">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </label><br>
+                <label>Fish Activity/Notes:
+                    <textarea name="notes" rows="3"></textarea>
+                </label><br>
+                <button type="submit" disabled>Save (Demo Only)</button>
+            </form>
+            <p>Need help? <a href="contact.html">Contact us</a> for step-by-step support!</p>
+        </section>
+    </main>
+    <footer>
+        <p>© SR Tilapia Fingerlings | <a href="https://www.facebook.com/SRTilapiaFingerlings" target="_blank">Facebook</a></p>
+    </footer>
+</body>
+</html>
